@@ -9,4 +9,4 @@ Recent growth in the VR/AR market has largely focused on the technology surround
 ![alt text]({{ site.url }}/assets/image/theteam-small.jpg "The Apex Haptics Team")
 
 
-Group members: Chris Virtue, Dan Venis, Andrew Yang, Jaden Tom
+<div class="caption">Chris Virtue, Dan Venis, Andrew Yang, Jaden Tom</div>

@@ -84,6 +84,15 @@ img {
 	}
 }
 
+.caption {
+	@media screen and (max-width: $br) {
+		width: 100%;
+		margin: auto;
+	}
+	font-size: 0.9em;
+	color: $color-darkgrey;
+	text-align: center;
+}
 
 .blog {
 	padding-bottom: 30px;
