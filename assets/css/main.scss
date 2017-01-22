@@ -7,11 +7,16 @@
 body {
 	color: $color-black;
 	background: $color-white;
-	font-family: 'Times New Roman', ;
+	font-family: 'Open Sans', ;
 	font-size: 100%;
 	font-weight: 400;
 }
 h1 {
+	font-size: 1.6em;
+	margin-bottom: 5px;
+}
+h2 {
+	font-size: 1.4em;
 	margin-bottom: 5px;
 }
 p {
@@ -47,9 +52,12 @@ ul {
 	}
 }
 
+img {
+	width: 100%;
+}
 
 .wrapper {
-	max-width: 600px;
+	max-width: 800px;
 	margin: auto;
 	padding: 60px 30px 60px 30px;
 	@media screen and (max-width: $br) {
@@ -66,10 +74,6 @@ ul {
 	@media screen and (max-width: $br) {
 		display: block;
 	}
-	h1 {
-		font-size: 2em;
-		margin-bottom: 0;
-	}
 	ul {
 		margin-top: 10px;
 		li {
@@ -80,14 +84,6 @@ ul {
 	}
 }
 
-.index {
-	h1 {
-		font-size: 1.4em;
-	}
-	img {
-		width: 100%;
-	}
-}
 
 .blog {
 	padding-bottom: 30px;
@@ -108,15 +104,6 @@ ul {
 		display: block;
 		margin-top: 20px;
 		margin-bottom: 6px;
-		h1 {
-			display: inline-block;
-			font-size: 1.6em;
-			font-weight: 700;
-			padding-right: 10px;
-			padding-bottom: 2px;
-			text-decoration: none;
-			border-bottom: 3px solid $color-black;
-		}
 	}
 	&__date {
 		p {
@@ -215,8 +202,7 @@ ul {
 
 .about {
 	&__title {
-		font-size: 1.6em;
-		font-weight: 700;
+		font-size: 1.4em;
 		margin-top: 20px;
 		margin-bottom: 10px;
 	}
