@@ -2,12 +2,18 @@
 layout: default
 ---
 
-<div class="blog">
-    <ul>
-        {% for post in site.posts %}
-        <li>
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
+<div class="posts">
+    <a class="posts__back" href="/">Back</a>
+    <h1 class="posts__title">Posts:</h1>
+    <div class="posts__content">
+        <div class="blog">
+            <ul>
+                {% for post in site.posts %}
+                <li>
+                    <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
 </div>
