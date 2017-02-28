@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "VR Graphics"
+date:   2017-02-27 19:00 -0000
+categories: software update
+---
+
+For the past couple week the software part of the project is entering its major design phase. Part of this effort is the graphics for the virtual reality system. For budget reasons the vr hardware used for the project is the google cardboard.
+
+The backbone of the system is the google view java api and the graphics will be draw in opengl. This required a bit of overhead work to get the system drawing at. We created a android program for loading asset files, one for starting the opengl call into game object and some shader to to the drawing work. But now that that has finished we can start sharing what the VR environment will look like.
+
+![Development screenshot]({{ site.url }}/assets/image/gr1.png)
+<div class="caption">First fully functional rendering.</div>
+
+As you can see, it is a humble start. But the objects are clearly being drawn and respond to the user moving their head.
+The graphic style is a cell shaded look. This is in mart to set create a lighthearted environment for the user and to save on graphic asset development.
+
+![Development screenshot]({{ site.url }}/assets/image/gr2.png)
+<div class="caption">Looking a little more familiar.</div>
+
+Later, some of the assets get replaced will more complete versions and the lighting shaders get a much need update.
+
+![Development screenshot]({{ site.url }}/assets/image/gr3.png)
+<div class="caption">Outdoor lighting.</div>
+
+The simple shader is then replaced with a three part outdoor lighting shader. One light for the sun, sky and ground. However the sky itself looks a little off and the fog takes on a somewhat toxic yellow colour.
+
+![Development screenshot]({{ site.url }}/assets/image/gr4.png)
+<div class="caption">The sky's the limit</div>
+
+This last update replaces the shy and fog. the fog is made more white and burns off to meet the sky and the sun is painted onto the sky. Notice the simulated diffraction on the of of the light around the sun.
+
+The graphics still need more game assets and the code to move them but the graphics code is advancing at an encouraging pace.
+
