@@ -22,7 +22,7 @@ Finally, from just under the fans, we have the Atmel board, the low-power board,
 ![Another angle]({{ site.url }}/assets/image/enclosure-open.jpg)
 <div class="caption">Pretty much a photoshoot at this point</div>
 
-At a different angle, we can see the encoder and motor connections. It was important that the connectors were circular, otherwise it becomes a lot more difficult to attach them to the enclosure. 
+At a different angle, we can see the encoder and motor connections. It was important that the connectors were circular, otherwise it becomes a lot more difficult to make the cut-out in the enclosure. 
 
 We had a minor hiccup last week, which resulted in some fried motor drivers. But they've been replaced, and we're ready to integrate our software with the robot (which is looking pretty damn good, by the way). This next week will be a big one.
 
