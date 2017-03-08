@@ -19,7 +19,7 @@ On the top right, we have our 24V, 350W power supply. On the bottom left, there'
 
 Finally, from just under the fans, we have the Atmel board, the low-power board, and the high-power board. The low-power board has isolated amplifiers for the current sense, and opto-isolators to control the motor drivers. It uses USB power, which is completely isolated from the PSU output. The encoders and force sensor are connected to this board (circular connectors on the left). And the high-power board has the motor driver power connections and the current sense resistors. 
 
-![Another angle]({{ site.url }}/assets/image/enclosure-opened.jpg)
+![Another angle]({{ site.url }}/assets/image/enclosure-open.jpg)
 <div class="caption">Pretty much a photoshoot at this point</div>
 
 At a different angle, we can see the encoder and motor connections. It was important that the connectors were circular, otherwise it becomes a lot more difficult to attach them to the enclosure. 
